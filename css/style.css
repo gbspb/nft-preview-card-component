@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: hsl(216deg, 50%, 16%);
+  height: 37rem;
+  width: 21.8rem;
+  border-radius: 1rem;
+}
+
+.box-img {
+  position: relative;
+}
+
+.nft-img {
+  margin: 1.5rem auto 0;
+  display: block;
+  border-radius: 0.5rem;
+  width: 87%;
+  visibility: visible;
+}
+
+.view-img {
+  background-color: hsla(178deg, 100%, 50%, 0.5);
+  border-radius: 0.5rem;
+  visibility: hidden;
+  position: absolute;
+  margin: auto 1.5rem;
+  padding: 7.95rem;
+  top: 0;
+  left: 0;
+}
+
+.box-img:hover .view-img {
+  cursor: pointer;
+  visibility: visible;
+}
+
+h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.4rem;
+  margin: 1.5rem auto 0 1.5rem;
+}
+h1:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+
+p {
+  color: hsl(215deg, 51%, 70%);
+  margin: 1.2rem auto 0 1.5rem;
+  font-size: 1.1rem;
+  width: 87%;
+  line-height: 1.5rem;
+}
+
+.datas {
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+}
+.datas .ethereum {
+  display: flex;
+  align-items: center;
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 400;
+}
+.datas .ethereum img {
+  margin: 0;
+  padding-right: 0.3rem;
+  width: 0.65rem;
+}
+.datas .time {
+  color: hsl(215deg, 51%, 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.datas .time img {
+  margin: 0;
+  padding-right: 0.5rem;
+  width: 1rem;
+}
+
+.creator {
+  margin: 1.5rem;
+  border-top: 1px solid hsl(215deg, 32%, 27%);
+  display: flex;
+}
+.creator p {
+  margin-left: 1rem;
+}
+.creator span {
+  color: hsl(0deg, 0%, 100%);
+}
+.creator .avatar {
+  margin-top: 1rem;
+  width: 10%;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(215deg, 51%, 70%);
+  text-decoration: underline;
+  text-decoration: none;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: 2rem;
+  color: hsl(215deg, 51%, 70%);
+}
+
+/*# sourceMappingURL=style.css.map */
